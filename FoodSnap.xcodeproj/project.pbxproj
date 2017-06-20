@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D24264D62A0281D07906876 /* Pods_FoodSnapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B26151FFECED8384180DECA /* Pods_FoodSnapTests.framework */; };
+		A98F7D0246D721492034E336 /* Pods_FoodSnapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53744EF4A160232347DADB42 /* Pods_FoodSnapUITests.framework */; };
+		CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */; };
+		CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */; };
+		CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD331EF9D791009A89AD /* InstagramManager.swift */; };
 		CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */; };
 		CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */; };
 		CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */; };
@@ -22,6 +27,7 @@
 		CAF516921EF952A20017F63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF516901EF952A20017F63A /* LaunchScreen.storyboard */; };
 		CAF5169D1EF952A20017F63A /* FoodSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5169C1EF952A20017F63A /* FoodSnapTests.swift */; };
 		CAF516A81EF952A20017F63A /* FoodSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF516A71EF952A20017F63A /* FoodSnapUITests.swift */; };
+		DFD8E7D983B16A87105F694E /* Pods_FoodSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7C11C6E3BD5A47D6656D35 /* Pods_FoodSnap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09206BAF84B12502F2A1BFB8 /* Pods-FoodSnapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B26151FFECED8384180DECA /* Pods_FoodSnapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSnapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53744EF4A160232347DADB42 /* Pods_FoodSnapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSnapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DCF5F574388DE136ABA228 /* Pods-FoodSnapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6850F6AC909A550DAE5D8AFA /* Pods-FoodSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnap/Pods-FoodSnap.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7C11C6E3BD5A47D6656D35 /* Pods_FoodSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C36C228F5E6DA343151B8AA /* Pods-FoodSnapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnapTests/Pods-FoodSnapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA321D7B1EF9A9AE006DDA24 /* CameraManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CameraManager.framework; path = "Pods/../build/Debug-iphoneos/CameraManager/CameraManager.framework"; sourceTree = "<group>"; };
+		CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescPopupView.swift; sourceTree = "<group>"; };
+		CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDescPopupView.xib; sourceTree = "<group>"; };
+		CA44AD331EF9D791009A89AD /* InstagramManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramManager.swift; sourceTree = "<group>"; };
 		CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTaskExpandedViewController.swift; sourceTree = "<group>"; };
 		CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskExpandedViewController.xib; sourceTree = "<group>"; };
 		CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskView.xib; sourceTree = "<group>"; };
@@ -63,6 +80,8 @@
 		CAF516A31EF952A20017F63A /* FoodSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF516A71EF952A20017F63A /* FoodSnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSnapUITests.swift; sourceTree = "<group>"; };
 		CAF516A91EF952A20017F63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB566BAD8AC5BB689DCE77AD /* Pods-FoodSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnap/Pods-FoodSnap.release.xcconfig"; sourceTree = "<group>"; };
+		EDB51859DEE833E4AE9E0D88 /* Pods-FoodSnapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnapTests/Pods-FoodSnapTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAED1E071EF96E2000585422 /* MapKit.framework in Frameworks */,
+				DFD8E7D983B16A87105F694E /* Pods_FoodSnap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D24264D62A0281D07906876 /* Pods_FoodSnapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,16 +106,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98F7D0246D721492034E336 /* Pods_FoodSnapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F2FCBA59319C6AFB1B15AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6850F6AC909A550DAE5D8AFA /* Pods-FoodSnap.debug.xcconfig */,
+				CB566BAD8AC5BB689DCE77AD /* Pods-FoodSnap.release.xcconfig */,
+				9C36C228F5E6DA343151B8AA /* Pods-FoodSnapTests.debug.xcconfig */,
+				EDB51859DEE833E4AE9E0D88 /* Pods-FoodSnapTests.release.xcconfig */,
+				59DCF5F574388DE136ABA228 /* Pods-FoodSnapUITests.debug.xcconfig */,
+				09206BAF84B12502F2A1BFB8 /* Pods-FoodSnapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CAED1E051EF96E2000585422 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA321D7B1EF9A9AE006DDA24 /* CameraManager.framework */,
 				CAED1E061EF96E2000585422 /* MapKit.framework */,
+				6E7C11C6E3BD5A47D6656D35 /* Pods_FoodSnap.framework */,
+				4B26151FFECED8384180DECA /* Pods_FoodSnapTests.framework */,
+				53744EF4A160232347DADB42 /* Pods_FoodSnapUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +146,7 @@
 				CAF516A61EF952A20017F63A /* FoodSnapUITests */,
 				CAF516851EF952A20017F63A /* Products */,
 				CAED1E051EF96E2000585422 /* Frameworks */,
+				26F2FCBA59319C6AFB1B15AC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +173,9 @@
 				CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */,
 				CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */,
 				CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */,
+				CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */,
+				CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */,
+				CA44AD331EF9D791009A89AD /* InstagramManager.swift */,
 				CAF5168E1EF952A20017F63A /* Assets.xcassets */,
 				CAF516901EF952A20017F63A /* LaunchScreen.storyboard */,
 				CAF516931EF952A20017F63A /* Info.plist */,
@@ -165,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF516AC1EF952A20017F63A /* Build configuration list for PBXNativeTarget "FoodSnap" */;
 			buildPhases = (
+				9EAA596AFEA01AAA92749D16 /* [CP] Check Pods Manifest.lock */,
 				CAF516801EF952A20017F63A /* Sources */,
 				CAF516811EF952A20017F63A /* Frameworks */,
 				CAF516821EF952A20017F63A /* Resources */,
+				2B089B39C60EC8AE2D91741E /* [CP] Embed Pods Frameworks */,
+				BF74D503B133D58D5392ACA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF516AF1EF952A20017F63A /* Build configuration list for PBXNativeTarget "FoodSnapTests" */;
 			buildPhases = (
+				C085E05D75954E4D0A205CE0 /* [CP] Check Pods Manifest.lock */,
 				CAF516941EF952A20017F63A /* Sources */,
 				CAF516951EF952A20017F63A /* Frameworks */,
 				CAF516961EF952A20017F63A /* Resources */,
+				74C2C994E0EE3A874BCEB3E3 /* [CP] Embed Pods Frameworks */,
+				9F95D2C0D3D44440B1F4F889 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF516B21EF952A20017F63A /* Build configuration list for PBXNativeTarget "FoodSnapUITests" */;
 			buildPhases = (
+				EEAA2D90EC0EFEAE59DE3D0B /* [CP] Check Pods Manifest.lock */,
 				CAF5169F1EF952A20017F63A /* Sources */,
 				CAF516A01EF952A20017F63A /* Frameworks */,
 				CAF516A11EF952A20017F63A /* Resources */,
+				940CCE629998CD9E95D305C1 /* [CP] Embed Pods Frameworks */,
+				1DF6024E6954420EF0F7C06C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,7 +278,7 @@
 				TargetAttributes = {
 					CAF516831EF952A20017F63A = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = DTD828FQW2;
+						DevelopmentTeam = 72H7NZKH7W;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -279,6 +331,7 @@
 				CAF5168D1EF952A20017F63A /* Main.storyboard in Resources */,
 				CAED1E111EF96FC300585422 /* HomeViewController.xib in Resources */,
 				CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */,
+				CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +351,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF6024E6954420EF0F7C06C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B089B39C60EC8AE2D91741E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnap/Pods-FoodSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C2C994E0EE3A874BCEB3E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnapTests/Pods-FoodSnapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940CCE629998CD9E95D305C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EAA596AFEA01AAA92749D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F95D2C0D3D44440B1F4F889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnapTests/Pods-FoodSnapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF74D503B133D58D5392ACA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSnap/Pods-FoodSnap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C085E05D75954E4D0A205CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAA2D90EC0EFEAE59DE3D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAF516801EF952A20017F63A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -305,8 +496,10 @@
 			files = (
 				CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */,
 				CAED1E0D1EF96FAC00585422 /* NavigationViewController.swift in Sources */,
+				CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */,
 				CAF5168A1EF952A20017F63A /* ViewController.swift in Sources */,
 				CAF516881EF952A20017F63A /* AppDelegate.swift in Sources */,
+				CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */,
 				CAE29F621EF9768E0004DCC7 /* BusinessTaskView.swift in Sources */,
 				CAED1E101EF96FC300585422 /* HomeViewController.swift in Sources */,
 			);
@@ -460,9 +653,14 @@
 		};
 		CAF516AD1EF952A20017F63A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6850F6AC909A550DAE5D8AFA /* Pods-FoodSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DTD828FQW2;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CameraManager",
+				);
 				INFOPLIST_FILE = FoodSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.FoodSnap;
@@ -473,9 +671,14 @@
 		};
 		CAF516AE1EF952A20017F63A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB566BAD8AC5BB689DCE77AD /* Pods-FoodSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DTD828FQW2;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CameraManager",
+				);
 				INFOPLIST_FILE = FoodSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.FoodSnap;
@@ -486,6 +689,7 @@
 		};
 		CAF516B01EF952A20017F63A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C36C228F5E6DA343151B8AA /* Pods-FoodSnapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +705,7 @@
 		};
 		CAF516B11EF952A20017F63A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB51859DEE833E4AE9E0D88 /* Pods-FoodSnapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +721,7 @@
 		};
 		CAF516B31EF952A20017F63A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DCF5F574388DE136ABA228 /* Pods-FoodSnapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DTD828FQW2;
@@ -530,6 +736,7 @@
 		};
 		CAF516B41EF952A20017F63A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09206BAF84B12502F2A1BFB8 /* Pods-FoodSnapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DTD828FQW2;

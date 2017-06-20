@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>instagram</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Your library is used to save photos of awesome food you buy.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Your camera is used to take photos of awesome food you buy.</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

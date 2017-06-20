@@ -1,0 +1,6 @@
+framework module Pods_FoodSnapUITests {
+  umbrella header "Pods-FoodSnapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
