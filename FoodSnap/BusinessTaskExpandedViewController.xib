@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BusinessTaskExpandedViewController" customModule="FoodSnap" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="IJw-fn-OsM" id="M0P-oq-tPp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test-company-icon" translatesAutoresizingMaskIntoConstraints="NO" id="ohR-fq-3Sn">
+                    <rect key="frame" x="15" y="15" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="TRM-nh-0Ai"/>
+                        <constraint firstAttribute="height" constant="65" id="W47-fw-lJb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="32.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" text="Moe's Southwest Grill" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7a-Sc-TOB">
+                    <rect key="frame" x="100" y="25" width="210" height="21.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nge-UC-q4P">
+                    <rect key="frame" x="315" y="0.0" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="8pB-Yq-LAA"/>
+                        <constraint firstAttribute="height" constant="60" id="dC8-kg-whU"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                    <state key="normal" image="collapse-arrow-icon"/>
+                    <connections>
+                        <action selector="pressedDismissButton:" destination="-1" eventType="touchUpInside" id="70q-6J-OeY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Closest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsP-lx-IkQ">
+                    <rect key="frame" x="100" y="51.5" width="195" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" red="0.96470588235294119" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldg-a2-SRM">
+                    <rect key="frame" x="153" y="568" width="69" height="69"/>
+                    <state key="normal" image="camera-capture-button"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IJw-fn-OsM">
+                    <rect key="frame" x="0.0" y="100" width="375" height="438"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IJw-fn-OsM" firstAttribute="top" secondItem="ohR-fq-3Sn" secondAttribute="bottom" constant="20" id="4Sl-Kc-6VP"/>
+                <constraint firstItem="IJw-fn-OsM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6Av-BO-JBn"/>
+                <constraint firstItem="ohR-fq-3Sn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Dx0-yx-mYK"/>
+                <constraint firstItem="VsP-lx-IkQ" firstAttribute="top" secondItem="a7a-Sc-TOB" secondAttribute="bottom" constant="5" id="EY8-ao-Knn"/>
+                <constraint firstAttribute="trailing" secondItem="IJw-fn-OsM" secondAttribute="trailing" id="Eur-sM-sF8"/>
+                <constraint firstItem="VsP-lx-IkQ" firstAttribute="leading" secondItem="ohR-fq-3Sn" secondAttribute="trailing" constant="20" id="JVc-sg-3pj"/>
+                <constraint firstAttribute="trailing" secondItem="Nge-UC-q4P" secondAttribute="trailing" id="PZ2-Wf-PPe"/>
+                <constraint firstItem="a7a-Sc-TOB" firstAttribute="leading" secondItem="ohR-fq-3Sn" secondAttribute="trailing" constant="20" id="QSb-8c-XFw"/>
+                <constraint firstItem="ldg-a2-SRM" firstAttribute="top" secondItem="IJw-fn-OsM" secondAttribute="bottom" constant="30" id="Qi4-yC-HXX"/>
+                <constraint firstItem="Nge-UC-q4P" firstAttribute="leading" secondItem="a7a-Sc-TOB" secondAttribute="trailing" constant="5" id="VFp-sR-prT"/>
+                <constraint firstItem="Nge-UC-q4P" firstAttribute="leading" secondItem="VsP-lx-IkQ" secondAttribute="trailing" constant="20" id="b99-3o-yoe"/>
+                <constraint firstItem="ohR-fq-3Sn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="cFO-X1-7nb"/>
+                <constraint firstItem="a7a-Sc-TOB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="eWx-vx-4cZ"/>
+                <constraint firstAttribute="bottom" secondItem="ldg-a2-SRM" secondAttribute="bottom" constant="30" id="iQy-ZV-pEn"/>
+                <constraint firstItem="Nge-UC-q4P" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qi7-Hw-pzE"/>
+                <constraint firstItem="ldg-a2-SRM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sdR-JR-XDM"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera-capture-button" width="69" height="69"/>
+        <image name="collapse-arrow-icon" width="23" height="13"/>
+        <image name="test-company-icon" width="61" height="46"/>
+    </resources>
+</document>

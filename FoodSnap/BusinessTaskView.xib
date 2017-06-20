@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BusinessTaskView" customModule="FoodSnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test-company-icon" translatesAutoresizingMaskIntoConstraints="NO" id="7qv-2s-MIL">
+                    <rect key="frame" x="20" y="7.5" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="UaA-hQ-UmP"/>
+                        <constraint firstAttribute="width" constant="65" id="hI3-2n-FXD"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="32.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" text="Moe's Southwest Grill" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0P-OV-pJc">
+                    <rect key="frame" x="105" y="10" width="192" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="500 likes for 25% Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoZ-Q6-nro">
+                    <rect key="frame" x="105" y="33" width="250" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="752" text="Closest" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOb-7i-ExQ">
+                    <rect key="frame" x="307" y="10" width="53" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <color key="textColor" red="0.96470588235294119" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4i-bP-yEl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                    <connections>
+                        <action selector="pressedTaskView:" destination="iN0-l3-epB" eventType="touchUpInside" id="VgL-Pl-5bD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vOb-7i-ExQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="51I-d6-Mrq"/>
+                <constraint firstAttribute="trailing" secondItem="KoZ-Q6-nro" secondAttribute="trailing" constant="20" id="7iO-qH-q02"/>
+                <constraint firstAttribute="trailing" secondItem="vOb-7i-ExQ" secondAttribute="trailing" constant="15" id="9wX-zY-Im6"/>
+                <constraint firstItem="KoZ-Q6-nro" firstAttribute="top" secondItem="g0P-OV-pJc" secondAttribute="bottom" constant="5" id="CHW-VW-17e"/>
+                <constraint firstAttribute="bottom" secondItem="m4i-bP-yEl" secondAttribute="bottom" id="IVS-d3-iJx"/>
+                <constraint firstItem="m4i-bP-yEl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OOB-rT-8nY"/>
+                <constraint firstItem="7qv-2s-MIL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="RRf-Xc-3iv"/>
+                <constraint firstItem="7qv-2s-MIL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="c5e-Vl-FEQ"/>
+                <constraint firstItem="g0P-OV-pJc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="dPf-aq-Qgc"/>
+                <constraint firstItem="m4i-bP-yEl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="g4I-mc-a2Z"/>
+                <constraint firstItem="KoZ-Q6-nro" firstAttribute="leading" secondItem="7qv-2s-MIL" secondAttribute="trailing" constant="20" id="iKq-is-wr3"/>
+                <constraint firstAttribute="trailing" secondItem="m4i-bP-yEl" secondAttribute="trailing" id="ufP-H0-e3M"/>
+                <constraint firstItem="vOb-7i-ExQ" firstAttribute="leading" secondItem="g0P-OV-pJc" secondAttribute="trailing" constant="10" id="vQs-gf-Iod"/>
+                <constraint firstItem="g0P-OV-pJc" firstAttribute="leading" secondItem="7qv-2s-MIL" secondAttribute="trailing" constant="20" id="zFU-ff-VCk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="exclusiveLabel" destination="vOb-7i-ExQ" id="C1N-0S-Mnu"/>
+                <outlet property="imageView" destination="7qv-2s-MIL" id="UWw-3K-yJk"/>
+                <outlet property="nameLabel" destination="g0P-OV-pJc" id="1OY-cV-VUu"/>
+                <outlet property="taskDescLabel" destination="KoZ-Q6-nro" id="vYY-GA-H1d"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="test-company-icon" width="61" height="46"/>
+    </resources>
+</document>

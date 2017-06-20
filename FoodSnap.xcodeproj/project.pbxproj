@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */; };
+		CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */; };
+		CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */; };
+		CAE29F621EF9768E0004DCC7 /* BusinessTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE29F611EF9768E0004DCC7 /* BusinessTaskView.swift */; };
+		CAED1E071EF96E2000585422 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAED1E061EF96E2000585422 /* MapKit.framework */; };
+		CAED1E0D1EF96FAC00585422 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1E0C1EF96FAC00585422 /* NavigationViewController.swift */; };
+		CAED1E101EF96FC300585422 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1E0E1EF96FC300585422 /* HomeViewController.swift */; };
+		CAED1E111EF96FC300585422 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAED1E0F1EF96FC300585422 /* HomeViewController.xib */; };
 		CAF516881EF952A20017F63A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF516871EF952A20017F63A /* AppDelegate.swift */; };
 		CAF5168A1EF952A20017F63A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF516891EF952A20017F63A /* ViewController.swift */; };
 		CAF5168D1EF952A20017F63A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF5168B1EF952A20017F63A /* Main.storyboard */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTaskExpandedViewController.swift; sourceTree = "<group>"; };
+		CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskExpandedViewController.xib; sourceTree = "<group>"; };
+		CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskView.xib; sourceTree = "<group>"; };
+		CAE29F611EF9768E0004DCC7 /* BusinessTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTaskView.swift; sourceTree = "<group>"; };
+		CAED1E061EF96E2000585422 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CAED1E0C1EF96FAC00585422 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../NavigationViewController.swift; sourceTree = "<group>"; };
+		CAED1E0E1EF96FC300585422 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CAED1E0F1EF96FC300585422 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		CAF516841EF952A20017F63A /* FoodSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF516871EF952A20017F63A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF516891EF952A20017F63A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAED1E071EF96E2000585422 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAED1E051EF96E2000585422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAED1E061EF96E2000585422 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CAF5167B1EF952A20017F63A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,7 @@
 				CAF5169B1EF952A20017F63A /* FoodSnapTests */,
 				CAF516A61EF952A20017F63A /* FoodSnapUITests */,
 				CAF516851EF952A20017F63A /* Products */,
+				CAED1E051EF96E2000585422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +126,13 @@
 				CAF516871EF952A20017F63A /* AppDelegate.swift */,
 				CAF516891EF952A20017F63A /* ViewController.swift */,
 				CAF5168B1EF952A20017F63A /* Main.storyboard */,
+				CAED1E0C1EF96FAC00585422 /* NavigationViewController.swift */,
+				CAED1E0E1EF96FC300585422 /* HomeViewController.swift */,
+				CAED1E0F1EF96FC300585422 /* HomeViewController.xib */,
+				CAE29F611EF9768E0004DCC7 /* BusinessTaskView.swift */,
+				CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */,
+				CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */,
+				CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */,
 				CAF5168E1EF952A20017F63A /* Assets.xcassets */,
 				CAF516901EF952A20017F63A /* LaunchScreen.storyboard */,
 				CAF516931EF952A20017F63A /* Info.plist */,
@@ -195,6 +228,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = DTD828FQW2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					CAF516971EF952A20017F63A = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -237,7 +275,10 @@
 			files = (
 				CAF516921EF952A20017F63A /* LaunchScreen.storyboard in Resources */,
 				CAF5168F1EF952A20017F63A /* Assets.xcassets in Resources */,
+				CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */,
 				CAF5168D1EF952A20017F63A /* Main.storyboard in Resources */,
+				CAED1E111EF96FC300585422 /* HomeViewController.xib in Resources */,
+				CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */,
+				CAED1E0D1EF96FAC00585422 /* NavigationViewController.swift in Sources */,
 				CAF5168A1EF952A20017F63A /* ViewController.swift in Sources */,
 				CAF516881EF952A20017F63A /* AppDelegate.swift in Sources */,
+				CAE29F621EF9768E0004DCC7 /* BusinessTaskView.swift in Sources */,
+				CAED1E101EF96FC300585422 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +561,7 @@
 				CAF516AE1EF952A20017F63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAF516AF1EF952A20017F63A /* Build configuration list for PBXNativeTarget "FoodSnapTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +570,7 @@
 				CAF516B11EF952A20017F63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAF516B21EF952A20017F63A /* Build configuration list for PBXNativeTarget "FoodSnapUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +579,7 @@
 				CAF516B41EF952A20017F63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

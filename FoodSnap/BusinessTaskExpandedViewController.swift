@@ -1,5 +1,5 @@
 //
-//  NavigationViewController.swift
+//  BusinessTaskExpandedViewController.swift
 //  FoodSnap
 //
 //  Created by Arthur De Araujo on 6/20/17.
@@ -8,15 +8,14 @@
 
 import UIKit
 
-class NavigationViewController: UINavigationController {
+class BusinessTaskExpandedViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationBar.tintColor = UIColor.init(colorLiteralRed: 27/255, green: 188/255, blue: 156/255, alpha: 1.0)
-
-        let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
-        self.pushViewController(homeViewController, animated:true)
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +23,15 @@ class NavigationViewController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func pressedDismissButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

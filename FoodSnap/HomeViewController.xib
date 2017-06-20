@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="FoodSnap" customModuleProvider="target">
             <connections>
+                <outlet property="mapView" destination="HDD-T2-pZt" id="bam-cR-1ld"/>
+                <outlet property="taskScrollView" destination="BSr-ic-KeZ" id="tBD-kw-MwE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +20,44 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HDD-T2-pZt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </mapView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSr-ic-KeZ">
+                    <rect key="frame" x="0.0" y="587" width="319" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Hu9-ol-Low"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuL-Pz-lcv">
+                    <rect key="frame" x="320" y="587" width="55" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="cCg-UH-U5C"/>
+                        <constraint firstAttribute="width" constant="55" id="vnJ-Jo-zF3"/>
+                    </constraints>
+                    <state key="normal" image="nexttask-arrow"/>
+                    <connections>
+                        <action selector="pressedNextTaskButton:" destination="-1" eventType="touchUpInside" id="ROq-mz-svA"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tuL-Pz-lcv" secondAttribute="bottom" id="35y-DA-od8"/>
+                <constraint firstItem="HDD-T2-pZt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C4T-uA-Leb"/>
+                <constraint firstAttribute="trailing" secondItem="tuL-Pz-lcv" secondAttribute="trailing" id="Jk4-Bm-6Bq"/>
+                <constraint firstItem="tuL-Pz-lcv" firstAttribute="leading" secondItem="BSr-ic-KeZ" secondAttribute="trailing" constant="1" id="L1F-X8-Tk6"/>
+                <constraint firstAttribute="trailing" secondItem="HDD-T2-pZt" secondAttribute="trailing" id="OJg-Ef-Miu"/>
+                <constraint firstItem="BSr-ic-KeZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bD6-Pu-Mcx"/>
+                <constraint firstAttribute="bottom" secondItem="HDD-T2-pZt" secondAttribute="bottom" id="c8Z-Uc-0c7"/>
+                <constraint firstItem="HDD-T2-pZt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cXB-AA-iPs"/>
+                <constraint firstAttribute="bottom" secondItem="BSr-ic-KeZ" secondAttribute="bottom" id="ik4-xm-jfB"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="nexttask-arrow" width="16" height="28"/>
+    </resources>
 </document>
