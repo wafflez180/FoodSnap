@@ -114,7 +114,10 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate, MKMapView
     // MARKL - Selectors
     
     func pressedLogoutButton(){
-        //TODO
+        self.dismiss(animated: true) {
+            
+        }
+        //TODO call to API
     }
     
     func pressedSharedPhotosButton(){

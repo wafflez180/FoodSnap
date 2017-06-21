@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         }))
 
         alert.addAction(UIAlertAction(title: "Sign In", style: UIAlertActionStyle.default, handler: { action in
-            presentBusinessSignIn()
+            self.presentBusinessSignIn()
         }))
 
         alert.addAction(UIAlertAction(title: "No, Thanks", style: UIAlertActionStyle.cancel, handler: nil))
