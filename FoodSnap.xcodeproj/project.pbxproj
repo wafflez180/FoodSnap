@@ -12,6 +12,12 @@
 		CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */; };
 		CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */; };
 		CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD331EF9D791009A89AD /* InstagramManager.swift */; };
+		CA7815541EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7815521EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift */; };
+		CA7815551EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815531EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib */; };
+		CA7815581EFABA7C002AC1ED /* SharedPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7815561EFABA7C002AC1ED /* SharedPhotosTableViewController.swift */; };
+		CA7815591EFABA7C002AC1ED /* SharedPhotosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815571EFABA7C002AC1ED /* SharedPhotosTableViewController.xib */; };
+		CA7815621EFAC438002AC1ED /* BusinessApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */; };
+		CA7815631EFAC438002AC1ED /* BusinessApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */; };
 		CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */; };
 		CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */; };
 		CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */; };
@@ -59,6 +65,12 @@
 		CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescPopupView.swift; sourceTree = "<group>"; };
 		CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDescPopupView.xib; sourceTree = "<group>"; };
 		CA44AD331EF9D791009A89AD /* InstagramManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramManager.swift; sourceTree = "<group>"; };
+		CA7815521EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		CA7815531EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SharedPhotoTableViewCell.xib; sourceTree = "<group>"; };
+		CA7815561EFABA7C002AC1ED /* SharedPhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedPhotosTableViewController.swift; sourceTree = "<group>"; };
+		CA7815571EFABA7C002AC1ED /* SharedPhotosTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SharedPhotosTableViewController.xib; sourceTree = "<group>"; };
+		CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessApplicationViewController.swift; sourceTree = "<group>"; };
+		CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessApplicationViewController.xib; sourceTree = "<group>"; };
 		CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTaskExpandedViewController.swift; sourceTree = "<group>"; };
 		CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskExpandedViewController.xib; sourceTree = "<group>"; };
 		CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskView.xib; sourceTree = "<group>"; };
@@ -126,6 +138,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CA78155A1EFAC365002AC1ED /* Instagram Users */ = {
+			isa = PBXGroup;
+			children = (
+				CAED1E0E1EF96FC300585422 /* HomeViewController.swift */,
+				CAED1E0F1EF96FC300585422 /* HomeViewController.xib */,
+				CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */,
+				CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */,
+				CA7815561EFABA7C002AC1ED /* SharedPhotosTableViewController.swift */,
+				CA7815571EFABA7C002AC1ED /* SharedPhotosTableViewController.xib */,
+				CA7815521EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift */,
+				CA7815531EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib */,
+				CAE29F611EF9768E0004DCC7 /* BusinessTaskView.swift */,
+				CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */,
+				CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */,
+				CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */,
+				CA44AD331EF9D791009A89AD /* InstagramManager.swift */,
+			);
+			name = "Instagram Users";
+			sourceTree = "<group>";
+		};
+		CA78155B1EFAC3A4002AC1ED /* Business Users */ = {
+			isa = PBXGroup;
+			children = (
+				CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */,
+				CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */,
+			);
+			name = "Business Users";
+			sourceTree = "<group>";
+		};
 		CAED1E051EF96E2000585422 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,15 +208,8 @@
 				CAF516891EF952A20017F63A /* ViewController.swift */,
 				CAF5168B1EF952A20017F63A /* Main.storyboard */,
 				CAED1E0C1EF96FAC00585422 /* NavigationViewController.swift */,
-				CAED1E0E1EF96FC300585422 /* HomeViewController.swift */,
-				CAED1E0F1EF96FC300585422 /* HomeViewController.xib */,
-				CAE29F611EF9768E0004DCC7 /* BusinessTaskView.swift */,
-				CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */,
-				CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */,
-				CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */,
-				CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */,
-				CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */,
-				CA44AD331EF9D791009A89AD /* InstagramManager.swift */,
+				CA78155B1EFAC3A4002AC1ED /* Business Users */,
+				CA78155A1EFAC365002AC1ED /* Instagram Users */,
 				CAF5168E1EF952A20017F63A /* Assets.xcassets */,
 				CAF516901EF952A20017F63A /* LaunchScreen.storyboard */,
 				CAF516931EF952A20017F63A /* Info.plist */,
@@ -326,12 +360,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF516921EF952A20017F63A /* LaunchScreen.storyboard in Resources */,
+				CA7815551EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib in Resources */,
 				CAF5168F1EF952A20017F63A /* Assets.xcassets in Resources */,
 				CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */,
 				CAF5168D1EF952A20017F63A /* Main.storyboard in Resources */,
 				CAED1E111EF96FC300585422 /* HomeViewController.xib in Resources */,
 				CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */,
+				CA7815631EFAC438002AC1ED /* BusinessApplicationViewController.xib in Resources */,
 				CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */,
+				CA7815591EFABA7C002AC1ED /* SharedPhotosTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,8 +532,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */,
+				CA7815581EFABA7C002AC1ED /* SharedPhotosTableViewController.swift in Sources */,
 				CAED1E0D1EF96FAC00585422 /* NavigationViewController.swift in Sources */,
 				CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */,
+				CA7815621EFAC438002AC1ED /* BusinessApplicationViewController.swift in Sources */,
+				CA7815541EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift in Sources */,
 				CAF5168A1EF952A20017F63A /* ViewController.swift in Sources */,
 				CAF516881EF952A20017F63A /* AppDelegate.swift in Sources */,
 				CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */,

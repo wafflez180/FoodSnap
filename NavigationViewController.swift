@@ -14,9 +14,6 @@ class NavigationViewController: UINavigationController {
         super.viewDidLoad()
 
         self.navigationBar.tintColor = UIColor.init(colorLiteralRed: 27/255, green: 188/255, blue: 156/255, alpha: 1.0)
-
-        let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
-        self.pushViewController(homeViewController, animated:true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +21,15 @@ class NavigationViewController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
+    func segueToInstagramUserPath(){
+        let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+        self.pushViewController(homeViewController, animated:true)
+    }
+    
+    func segueToBusinessUserPath(){
+        let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+        self.pushViewController(homeViewController, animated:true)
+    }
 
     /*
     // MARK: - Navigation

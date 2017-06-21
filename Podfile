@@ -8,16 +8,20 @@ target 'FoodSnap' do
   # Pods for FoodSnap
 
     pod 'CameraManager', '~> 3.1'
+    pod 'GooglePlacePicker'
 
   target 'FoodSnapTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'CameraManager', '~> 3.1'
+    pod 'GooglePlacePicker'
   end
 
   target 'FoodSnapUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'CameraManager', '~> 3.1'
+    pod 'GooglePlacePicker'
   end
 
 end

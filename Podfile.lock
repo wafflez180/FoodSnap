@@ -1,12 +1,26 @@
 PODS:
   - CameraManager (3.1.4)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
 
 DEPENDENCIES:
   - CameraManager (~> 3.1)
+  - GooglePlacePicker
 
 SPEC CHECKSUMS:
   CameraManager: 837ff54004e37b83533abf0543daf143fae851e4
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
 
-PODFILE CHECKSUM: bd74483f327347857e5af225d9ff0bfc1789a912
+PODFILE CHECKSUM: 0aafbf83863b9ea774c9fadcdc979d65b6e799eb
 
 COCOAPODS: 1.2.0

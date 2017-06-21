@@ -36,8 +36,8 @@ class BusinessTaskExpandedViewController: UIViewController {
         let popup = TaskDescPopupView.instanceFromNib() as! TaskDescPopupView
         popup.parentVC = self
         
-        var sidePadding:CGFloat = 20.0
-        var sketchHeight:CGFloat = 220.0
+        let sidePadding:CGFloat = 20.0
+        let sketchHeight:CGFloat = 220.0
         popup.frame = CGRect(x: 20.0, y: (self.view.frame.size.height/2.0) - (sketchHeight/2.0), width: self.view.frame.size.width - (sidePadding * 2.0), height: sketchHeight)
         
         self.view.addSubview(popup)

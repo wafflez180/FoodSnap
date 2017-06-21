@@ -10,15 +10,15 @@
 		17D09051A71ED1D2BF4AC10E7A14A6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		1C81BA974AFD27E3393AD2F20EE134D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2E44C9A1B9BE5550A940A2B67506A63A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		53BA2EA4E0EBF33A095C2CC7D515859F /* Pods-FoodSnapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A486706196D44762B63F059F7EF28EFB /* Pods-FoodSnapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A94F0F6B2381D5D05A6461E4F4611DC /* Pods-FoodSnapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2679DCE6DFC351BE245148745377EE96 /* Pods-FoodSnapUITests-dummy.m */; };
+		46AD9A3BCC6CAE8C63CAC609F4E8F26E /* Pods-FoodSnapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A486706196D44762B63F059F7EF28EFB /* Pods-FoodSnapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F1122DE017EFE75C9EBE8E7D76E443 /* Pods-FoodSnapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8324235B70FE11F2D50FA37664CED /* Pods-FoodSnapTests-dummy.m */; };
-		5719D777F46F7C6F689C6898EA54F524 /* CameraManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 169E12203DEE41EF4952D7CE69A9CF18 /* CameraManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5973437A822B87E4126136995E26461E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		66CD014679DD105EE8CA8EC84F987E1C /* Pods-FoodSnapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2679DCE6DFC351BE245148745377EE96 /* Pods-FoodSnapUITests-dummy.m */; };
-		8BB622C1F090A88EBADAA503A04F90DF /* CameraManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E081A08D762E27A86C6E5F7BB353D93 /* CameraManager-dummy.m */; };
-		9462551BBBC4C675457BE9569CA43F8C /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F3BF638A6624836B53F24AAA7772E /* CameraManager.swift */; };
+		5719D777F46F7C6F689C6898EA54F524 /* CameraManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E00FC283BBFB0F54769C08A28DFEB8F /* CameraManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB622C1F090A88EBADAA503A04F90DF /* CameraManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E0BDC86C5DAA388782F166BDABA13E /* CameraManager-dummy.m */; };
+		9462551BBBC4C675457BE9569CA43F8C /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308D5967BFCB4B91F7EB73C5B501E2E /* CameraManager.swift */; };
 		98CE8D879542AB9217E8ACC3BF170E18 /* Pods-FoodSnapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBEBA433E5ED11EA35B1EA761AEFEBF /* Pods-FoodSnapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDD14F4CE113218B7CC5867C435C3E2E /* Pods-FoodSnap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C562ADC0DD3F11E717981B366F07F8 /* Pods-FoodSnap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB186A8AD5B9C1EC260139DE01874779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		FDCEE745CCFD1C55561290A5E9D69AAA /* Pods-FoodSnap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB0693DCB2080DA8F7C6BF7AD125F /* Pods-FoodSnap-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,49 +37,64 @@
 			remoteGlobalIDString = FFBE657764C9F6D8E01DDE2949BD2E64;
 			remoteInfo = CameraManager;
 		};
+		DA2C23C7FB8BA245AF1A5DF1E87AD546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBE657764C9F6D8E01DDE2949BD2E64;
+			remoteInfo = CameraManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A95BA0BD495FC23894FD4674B29E93D /* CameraManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CameraManager.modulemap; sourceTree = "<group>"; };
+		0308D5967BFCB4B91F7EB73C5B501E2E /* CameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = camera/CameraManager.swift; sourceTree = "<group>"; };
 		0D1D451468292E2D67001ACB88AF9B82 /* Pods-FoodSnap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnap-resources.sh"; sourceTree = "<group>"; };
-		169E12203DEE41EF4952D7CE69A9CF18 /* CameraManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-umbrella.h"; sourceTree = "<group>"; };
 		180C330DF54301CAF4F0CA8ABD5B5EAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A70FA8FC75E582EF7632780FB0ED987 /* Pods-FoodSnapUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnapUITests-resources.sh"; sourceTree = "<group>"; };
 		23D2FA648C15E9D9C4891027BE09C313 /* Pods-FoodSnapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnapTests.release.xcconfig"; sourceTree = "<group>"; };
 		24156B7B509AB561F121AA12D87963E5 /* Pods-FoodSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnap.release.xcconfig"; sourceTree = "<group>"; };
+		260F2038AD9EA4AE9830B6607B9696B5 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		2679DCE6DFC351BE245148745377EE96 /* Pods-FoodSnapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodSnapUITests-dummy.m"; sourceTree = "<group>"; };
 		27D8324235B70FE11F2D50FA37664CED /* Pods-FoodSnapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodSnapTests-dummy.m"; sourceTree = "<group>"; };
 		33D34D3810B0FAD33EC3A29396B2ACB8 /* Pods_FoodSnapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodSnapTests.framework; path = "Pods-FoodSnapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D6C2E4D534886704550208A4C2081E /* Pods-FoodSnapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		398282ADB6B844287DBFD8F93DE43DAF /* CameraManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CameraManager.modulemap; sourceTree = "<group>"; };
 		39FB804944C752D321E91B119A596A24 /* Pods-FoodSnapUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnapUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3A8D96DBCCF3DDE6F20F3ED780F646BC /* CameraManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraManager.xcconfig; sourceTree = "<group>"; };
 		4118BE89C2A43FB7CCBC20B0153F480E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449CB4605AAAA1EE02F4C60CE07E4CA6 /* Pods-FoodSnapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B7FB0693DCB2080DA8F7C6BF7AD125F /* Pods-FoodSnap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodSnap-dummy.m"; sourceTree = "<group>"; };
-		58F1342AFF648D9767F4E1BA829754F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E081A08D762E27A86C6E5F7BB353D93 /* CameraManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraManager-dummy.m"; sourceTree = "<group>"; };
+		4CC4E23C87EDCC1A9822C4492E9D2967 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		4E00FC283BBFB0F54769C08A28DFEB8F /* CameraManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-umbrella.h"; sourceTree = "<group>"; };
 		5EA87E12EEB61A6A1E3FA320FB02116F /* Pods-FoodSnapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodSnapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6394333288B38FA432D298E2784FF5DB /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		64D8754DF357CB9D7A6F0DC41BC3F6CD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		6963C64F27A43F52657091D71EC7B89E /* Pods-FoodSnapTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnapTests-resources.sh"; sourceTree = "<group>"; };
 		6EBEBA433E5ED11EA35B1EA761AEFEBF /* Pods-FoodSnapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodSnapTests-umbrella.h"; sourceTree = "<group>"; };
+		6FFAA23EC61E510D7982BB47600BD71B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		75625F85267FD8663872BF1FC72FAC61 /* Pods-FoodSnap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodSnap-acknowledgements.markdown"; sourceTree = "<group>"; };
-		800EEF837C829DDB672D18EA075CB9BB /* CameraManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-prefix.pch"; sourceTree = "<group>"; };
 		8430A636B0803D1E228AD8ADE472AA5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA82C80374CC92BA0C6C7E99080945A /* Pods-FoodSnapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodSnapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		909B0628E32A1A441F0DE47B3C5AA565 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF512FC753AE0F0A23C094E1575F4F2 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		A486706196D44762B63F059F7EF28EFB /* Pods-FoodSnapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodSnapUITests-umbrella.h"; sourceTree = "<group>"; };
 		AB14C10FCC3C31912B62D17C7FF6783C /* Pods_FoodSnapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodSnapUITests.framework; path = "Pods-FoodSnapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B023AA9C6E704E9E1C21A34549471171 /* Pods-FoodSnapTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnapTests-frameworks.sh"; sourceTree = "<group>"; };
 		B9D3497CFA5E86754F6E76F50D14C977 /* Pods-FoodSnapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA0683B71E8DA40A67AE357D2FA3A33E /* CameraManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-prefix.pch"; sourceTree = "<group>"; };
 		BE90C41A377E5B7B94777245FB3A31E3 /* Pods-FoodSnapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FoodSnapTests.modulemap"; sourceTree = "<group>"; };
 		C2075F62570E17EFE5A100247170D165 /* Pods-FoodSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodSnap.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C562ADC0DD3F11E717981B366F07F8 /* Pods-FoodSnap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodSnap-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D9637C325A26BE53DE8E41F00F194F9D /* CameraManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraManager.framework; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99830BF263001D47BD6B1E4BD2D5589 /* Pods-FoodSnapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodSnapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3B32AF72A562670EB381E16A1FF0153 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
 		E50968ECDCC27ED284326FA2B42345CB /* Pods-FoodSnapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodSnapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9DCD61DFE7CB670F78EED22FE7FCB50 /* CameraManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraManager.xcconfig; sourceTree = "<group>"; };
 		ED4AE14B8B96F2E7704C37C80F71E10F /* Pods-FoodSnap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodSnap-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDC676DB82ECA77CE9BD7897F3AF4C3C /* Pods-FoodSnapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FoodSnapUITests.modulemap"; sourceTree = "<group>"; };
-		F83F3BF638A6624836B53F24AAA7772E /* CameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = camera/CameraManager.swift; sourceTree = "<group>"; };
+		F1D6E2679DD669636D31D4118D774F1F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		F4E0BDC86C5DAA388782F166BDABA13E /* CameraManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraManager-dummy.m"; sourceTree = "<group>"; };
 		F87D2965B82C57A8EE56BE41BB7E016C /* Pods_FoodSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodSnap.framework; path = "Pods-FoodSnap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA194A505C97C623F110BF2492DCC532 /* Pods-FoodSnap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodSnap-frameworks.sh"; sourceTree = "<group>"; };
 		FE0089919AC7CDF596C0E30CE1C4DBDF /* Pods-FoodSnap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FoodSnap.modulemap"; sourceTree = "<group>"; };
@@ -102,14 +117,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		778EFDD6A054D8CBA3FD142BF37FEA92 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5973437A822B87E4126136995E26461E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		77C6EFA19AA669C929210FCF53C937B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,29 +125,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9DC3726D681771986A1E37AEAA67DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB186A8AD5B9C1EC260139DE01874779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		397652CC0F8DAA1AFEFB03DE75717968 /* Pods */ = {
+		009748E3051275CBC17EFE49B7866773 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				D7471BC4478E4FB69B2CA98272BC3C22 /* CameraManager */,
+				D0712445731FE14E74FE37FB06A59DD8 /* Frameworks */,
+				93BA761D3636CAD467C19FC1F989613C /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		0E47639A46ED70B29F9F98800FD48B04 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				2890C071C21C43E0DCE088F2C85402B7 /* Frameworks */,
+				67C0EFF3FBDC4C8790D5DAAAAF061886 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		168A98A9A8BD8761E6AA0C9DCE98ECCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3B32AF72A562670EB381E16A1FF0153 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F063A86A4AFD23B87B709A959CA3C9B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4084864C4B5BD7548228732AD9F07D0B /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		204067A302A0C91A6C26B9907D3CD863 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1F063A86A4AFD23B87B709A959CA3C9B /* Base */,
+				0E47639A46ED70B29F9F98800FD48B04 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2890C071C21C43E0DCE088F2C85402B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6E2679DD669636D31D4118D774F1F /* GoogleMaps.framework */,
+				4CC4E23C87EDCC1A9822C4492E9D2967 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7B54F32A86CBCFC6E18802DB09B073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5C38CAEA5C2B0DB0AD79ECED1885B /* CameraManager */,
+				204067A302A0C91A6C26B9907D3CD863 /* GoogleMaps */,
+				7D6086A18A70005400462B3440BD0764 /* GooglePlacePicker */,
+				009748E3051275CBC17EFE49B7866773 /* GooglePlaces */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3D5629C1E4543F0F4449A09C9E9E4018 /* Support Files */ = {
+		3FE5C38CAEA5C2B0DB0AD79ECED1885B /* CameraManager */ = {
 			isa = PBXGroup;
 			children = (
-				0A95BA0BD495FC23894FD4674B29E93D /* CameraManager.modulemap */,
-				3A8D96DBCCF3DDE6F20F3ED780F646BC /* CameraManager.xcconfig */,
-				5E081A08D762E27A86C6E5F7BB353D93 /* CameraManager-dummy.m */,
-				800EEF837C829DDB672D18EA075CB9BB /* CameraManager-prefix.pch */,
-				169E12203DEE41EF4952D7CE69A9CF18 /* CameraManager-umbrella.h */,
-				58F1342AFF648D9767F4E1BA829754F1 /* Info.plist */,
+				0308D5967BFCB4B91F7EB73C5B501E2E /* CameraManager.swift */,
+				6391F0007E8352D4360FC04CD974398F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CameraManager";
+			name = CameraManager;
+			path = CameraManager;
+			sourceTree = "<group>";
+		};
+		4084864C4B5BD7548228732AD9F07D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D8754DF357CB9D7A6F0DC41BC3F6CD /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4E623E6BB01DBE471E10E545BF60153D /* Pods-FoodSnapTests */ = {
@@ -179,6 +255,28 @@
 			path = "Target Support Files/Pods-FoodSnap";
 			sourceTree = "<group>";
 		};
+		6391F0007E8352D4360FC04CD974398F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				398282ADB6B844287DBFD8F93DE43DAF /* CameraManager.modulemap */,
+				E9DCD61DFE7CB670F78EED22FE7FCB50 /* CameraManager.xcconfig */,
+				F4E0BDC86C5DAA388782F166BDABA13E /* CameraManager-dummy.m */,
+				BA0683B71E8DA40A67AE357D2FA3A33E /* CameraManager-prefix.pch */,
+				4E00FC283BBFB0F54769C08A28DFEB8F /* CameraManager-umbrella.h */,
+				909B0628E32A1A441F0DE47B3C5AA565 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CameraManager";
+			sourceTree = "<group>";
+		};
+		67C0EFF3FBDC4C8790D5DAAAAF061886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FFAA23EC61E510D7982BB47600BD71B /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,15 +285,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7D6086A18A70005400462B3440BD0764 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A185714A24A11569B17C6AD20D48A345 /* Frameworks */,
+				168A98A9A8BD8761E6AA0C9DCE98ECCA /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				397652CC0F8DAA1AFEFB03DE75717968 /* Pods */,
+				2E7B54F32A86CBCFC6E18802DB09B073 /* Pods */,
 				99AB0A6A6DA72A25A730DA84FA7683FA /* Products */,
 				98C20E2D2F97D9E5F20CFA662B2E2982 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		93BA761D3636CAD467C19FC1F989613C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF512FC753AE0F0A23C094E1575F4F2 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		98C20E2D2F97D9E5F20CFA662B2E2982 /* Targets Support Files */ = {
@@ -237,6 +353,14 @@
 			path = "Target Support Files/Pods-FoodSnapUITests";
 			sourceTree = "<group>";
 		};
+		A185714A24A11569B17C6AD20D48A345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6394333288B38FA432D298E2784FF5DB /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,14 +369,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7471BC4478E4FB69B2CA98272BC3C22 /* CameraManager */ = {
+		D0712445731FE14E74FE37FB06A59DD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F83F3BF638A6624836B53F24AAA7772E /* CameraManager.swift */,
-				3D5629C1E4543F0F4449A09C9E9E4018 /* Support Files */,
+				260F2038AD9EA4AE9830B6607B9696B5 /* GooglePlaces.framework */,
 			);
-			name = CameraManager;
-			path = CameraManager;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,19 +396,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		720719F4F34D136475F319B8B3756F55 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53BA2EA4E0EBF33A095C2CC7D515859F /* Pods-FoodSnapUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		866793DF324E6FD0A9ECDD1D1B922C85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5719D777F46F7C6F689C6898EA54F524 /* CameraManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775806A46B1584C41ADA620FF147190 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AD9A3BCC6CAE8C63CAC609F4E8F26E /* Pods-FoodSnapUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,17 +433,18 @@
 			productReference = F87D2965B82C57A8EE56BE41BB7E016C /* Pods_FoodSnap.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE0FDE2BC53BB6EE4B89F4DAF5FDC55F /* Pods-FoodSnapUITests */ = {
+		DFCFEF8A71EABCAE1D74F6BF05ABD8FC /* Pods-FoodSnapUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A373D19F620B66E8133145F86119CA /* Build configuration list for PBXNativeTarget "Pods-FoodSnapUITests" */;
+			buildConfigurationList = E122A4993CF81472722AE397BF7AF8A5 /* Build configuration list for PBXNativeTarget "Pods-FoodSnapUITests" */;
 			buildPhases = (
-				1E05228F110E1AF187B1A9BCFF7C5F0A /* Sources */,
-				778EFDD6A054D8CBA3FD142BF37FEA92 /* Frameworks */,
-				720719F4F34D136475F319B8B3756F55 /* Headers */,
+				2200BBEE49CA8D4948C3EFF9460DEB91 /* Sources */,
+				E9DC3726D681771986A1E37AEAA67DA2 /* Frameworks */,
+				C775806A46B1584C41ADA620FF147190 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BD2CC220C97B5A38D71B2FEA93774AE7 /* PBXTargetDependency */,
 			);
 			name = "Pods-FoodSnapUITests";
 			productName = "Pods-FoodSnapUITests";
@@ -387,7 +510,7 @@
 				FFBE657764C9F6D8E01DDE2949BD2E64 /* CameraManager */,
 				4E1AD1B56BC54417D34D82AA36DB017D /* Pods-FoodSnap */,
 				EED17CA36ED645C5324DE260A2E13EC1 /* Pods-FoodSnapTests */,
-				CE0FDE2BC53BB6EE4B89F4DAF5FDC55F /* Pods-FoodSnapUITests */,
+				DFCFEF8A71EABCAE1D74F6BF05ABD8FC /* Pods-FoodSnapUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,11 +524,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E05228F110E1AF187B1A9BCFF7C5F0A /* Sources */ = {
+		2200BBEE49CA8D4948C3EFF9460DEB91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CD014679DD105EE8CA8EC84F987E1C /* Pods-FoodSnapUITests-dummy.m in Sources */,
+				3A94F0F6B2381D5D05A6461E4F4611DC /* Pods-FoodSnapUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +557,12 @@
 			name = CameraManager;
 			target = FFBE657764C9F6D8E01DDE2949BD2E64 /* CameraManager */;
 			targetProxy = A159C62FF50EE4571A3FDFDE5B19260F /* PBXContainerItemProxy */;
+		};
+		BD2CC220C97B5A38D71B2FEA93774AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraManager;
+			target = FFBE657764C9F6D8E01DDE2949BD2E64 /* CameraManager */;
+			targetProxy = DA2C23C7FB8BA245AF1A5DF1E87AD546 /* PBXContainerItemProxy */;
 		};
 		F192933B9716DCC724650B739FC2A4A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -480,6 +609,41 @@
 			};
 			name = Debug;
 		};
+		10A5B174C5AD88D37B96292CE1C4BC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D3497CFA5E86754F6E76F50D14C977 /* Pods-FoodSnapUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodSnapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoodSnapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -520,41 +684,6 @@
 			};
 			name = Release;
 		};
-		1A02667B4F73713503641985A3FD159F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D3497CFA5E86754F6E76F50D14C977 /* Pods-FoodSnapUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodSnapUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FoodSnapUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		34F3FBD2A0FB04F87E6D79DA2A7DF1DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24156B7B509AB561F121AA12D87963E5 /* Pods-FoodSnap.release.xcconfig */;
@@ -589,41 +718,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		357047DEC79CBDEE5EE34E181ED2CD77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36D6C2E4D534886704550208A4C2081E /* Pods-FoodSnapUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodSnapUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FoodSnapUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3BBE2A22FB8C49DD2B03170B8AB642BC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -663,7 +757,7 @@
 		};
 		597E878D3CE0F499D055971061DDE265 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8D96DBCCF3DDE6F20F3ED780F646BC /* CameraManager.xcconfig */;
+			baseConfigurationReference = E9DCD61DFE7CB670F78EED22FE7FCB50 /* CameraManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -730,7 +824,7 @@
 		};
 		799C23E922818663F861A5D09B91426A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8D96DBCCF3DDE6F20F3ED780F646BC /* CameraManager.xcconfig */;
+			baseConfigurationReference = E9DCD61DFE7CB670F78EED22FE7FCB50 /* CameraManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -805,6 +899,42 @@
 			};
 			name = Debug;
 		};
+		E2CA771D045D6B353E49D623E137686B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D6C2E4D534886704550208A4C2081E /* Pods-FoodSnapUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodSnapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodSnapUITests/Pods-FoodSnapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoodSnapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -826,15 +956,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A373D19F620B66E8133145F86119CA /* Build configuration list for PBXNativeTarget "Pods-FoodSnapUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				357047DEC79CBDEE5EE34E181ED2CD77 /* Debug */,
-				1A02667B4F73713503641985A3FD159F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B6D2018C0D95AEBC5AB5D6D1306B77F5 /* Build configuration list for PBXNativeTarget "Pods-FoodSnap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -849,6 +970,15 @@
 			buildConfigurations = (
 				0043A361BD5712D9E525D7D9DB4454B2 /* Debug */,
 				7474FC10A65DC6FCA09B6AD29FA3F8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E122A4993CF81472722AE397BF7AF8A5 /* Build configuration list for PBXNativeTarget "Pods-FoodSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CA771D045D6B353E49D623E137686B /* Debug */,
+				10A5B174C5AD88D37B96292CE1C4BC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

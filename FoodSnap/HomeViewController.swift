@@ -43,6 +43,8 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate, MKMapView
 
         self.navigationItem.leftBarButtonItem = logoutButton
         self.navigationItem.rightBarButtonItem = sharedPostsButton
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
     }
     
     func setupMap(){
@@ -116,18 +118,13 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate, MKMapView
     }
     
     func pressedSharedPhotosButton(){
-        //TODO
+        let sharedPhotosTableViewCont = SharedPhotosTableViewController(nibName: "SharedPhotosTableViewController", bundle: nil)
+        self.navigationController?.pushViewController(sharedPhotosTableViewCont, animated:true)
     }
     
-
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
+    }
 }

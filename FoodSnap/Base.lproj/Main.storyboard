@@ -43,6 +43,9 @@
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pressedBusinessButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ox-kC-vVu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnC-vF-ffz">
                                 <rect key="frame" x="30" y="557" width="315" height="50"/>
