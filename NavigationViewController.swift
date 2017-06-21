@@ -27,8 +27,8 @@ class NavigationViewController: UINavigationController {
     }
     
     func segueToBusinessUserPath(){
-        let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
-        self.pushViewController(homeViewController, animated:true)
+        let bizHomeViewController = BusinessHomeViewController(nibName: "BusinessHomeViewController", bundle: nil)
+        self.pushViewController(bizHomeViewController, animated:true)
     }
 
     /*

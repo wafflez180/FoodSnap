@@ -18,6 +18,8 @@
 		CA7815591EFABA7C002AC1ED /* SharedPhotosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815571EFABA7C002AC1ED /* SharedPhotosTableViewController.xib */; };
 		CA7815621EFAC438002AC1ED /* BusinessApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */; };
 		CA7815631EFAC438002AC1ED /* BusinessApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */; };
+		CA78156A1EFB08DF002AC1ED /* BusinessHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7815681EFB08DF002AC1ED /* BusinessHomeViewController.swift */; };
+		CA78156B1EFB08DF002AC1ED /* BusinessHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7815691EFB08DF002AC1ED /* BusinessHomeViewController.xib */; };
 		CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */; };
 		CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */; };
 		CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */; };
@@ -71,6 +73,8 @@
 		CA7815571EFABA7C002AC1ED /* SharedPhotosTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SharedPhotosTableViewController.xib; sourceTree = "<group>"; };
 		CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessApplicationViewController.swift; sourceTree = "<group>"; };
 		CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessApplicationViewController.xib; sourceTree = "<group>"; };
+		CA7815681EFB08DF002AC1ED /* BusinessHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessHomeViewController.swift; sourceTree = "<group>"; };
+		CA7815691EFB08DF002AC1ED /* BusinessHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessHomeViewController.xib; sourceTree = "<group>"; };
 		CA94618D1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTaskExpandedViewController.swift; sourceTree = "<group>"; };
 		CA94618E1EF99ABD0019959C /* BusinessTaskExpandedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskExpandedViewController.xib; sourceTree = "<group>"; };
 		CAE29F5F1EF976180004DCC7 /* BusinessTaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTaskView.xib; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 			children = (
 				CA7815601EFAC438002AC1ED /* BusinessApplicationViewController.swift */,
 				CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */,
+				CA7815681EFB08DF002AC1ED /* BusinessHomeViewController.swift */,
+				CA7815691EFB08DF002AC1ED /* BusinessHomeViewController.xib */,
 			);
 			name = "Business Users";
 			sourceTree = "<group>";
@@ -368,6 +374,7 @@
 				CAE29F601EF976180004DCC7 /* BusinessTaskView.xib in Resources */,
 				CA7815631EFAC438002AC1ED /* BusinessApplicationViewController.xib in Resources */,
 				CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */,
+				CA78156B1EFB08DF002AC1ED /* BusinessHomeViewController.xib in Resources */,
 				CA7815591EFABA7C002AC1ED /* SharedPhotosTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +540,7 @@
 			files = (
 				CA94618F1EF99ABD0019959C /* BusinessTaskExpandedViewController.swift in Sources */,
 				CA7815581EFABA7C002AC1ED /* SharedPhotosTableViewController.swift in Sources */,
+				CA78156A1EFB08DF002AC1ED /* BusinessHomeViewController.swift in Sources */,
 				CAED1E0D1EF96FAC00585422 /* NavigationViewController.swift in Sources */,
 				CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */,
 				CA7815621EFAC438002AC1ED /* BusinessApplicationViewController.swift in Sources */,
