@@ -70,6 +70,9 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="instagram-icon" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-cf-Cb7">
                                 <rect key="frame" x="55" y="569" width="27" height="27"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="foodsnap-icon" translatesAutoresizingMaskIntoConstraints="NO" id="ALV-Ig-cRM">
+                                <rect key="frame" x="156" y="206" width="63" height="51"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -79,10 +82,12 @@
                             <constraint firstItem="mOC-cf-Cb7" firstAttribute="top" secondItem="LbW-Qq-1AL" secondAttribute="bottom" constant="42" id="EYD-Hs-i42"/>
                             <constraint firstItem="AkA-mq-Cqo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="Gqi-qS-67b"/>
                             <constraint firstItem="mOC-cf-Cb7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="55" id="HfV-hL-3Gp"/>
+                            <constraint firstItem="ALV-Ig-cRM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PiA-EK-UxG"/>
                             <constraint firstItem="xnC-vF-ffz" firstAttribute="top" secondItem="LbW-Qq-1AL" secondAttribute="bottom" constant="30" id="dku-Z7-HVI"/>
                             <constraint firstItem="LbW-Qq-1AL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="erY-ud-PIq"/>
                             <constraint firstAttribute="trailing" secondItem="xnC-vF-ffz" secondAttribute="trailing" constant="30" id="fvf-8c-cEj"/>
                             <constraint firstAttribute="trailing" secondItem="LbW-Qq-1AL" secondAttribute="trailing" constant="30" id="gyD-K5-2wj"/>
+                            <constraint firstItem="ALV-Ig-cRM" firstAttribute="top" secondItem="AkA-mq-Cqo" secondAttribute="bottom" constant="35" id="jEC-xJ-t1w"/>
                             <constraint firstItem="xnC-vF-ffz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kGw-Yx-xso"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LbW-Qq-1AL" secondAttribute="bottom" constant="140" id="ova-B0-xTR"/>
                         </constraints>
@@ -98,6 +103,7 @@
     </scenes>
     <resources>
         <image name="business-icon" width="28" height="27"/>
+        <image name="foodsnap-icon" width="63" height="51"/>
         <image name="instagram-icon" width="27" height="27"/>
     </resources>
 </document>

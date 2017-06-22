@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8D24264D62A0281D07906876 /* Pods_FoodSnapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B26151FFECED8384180DECA /* Pods_FoodSnapTests.framework */; };
 		A98F7D0246D721492034E336 /* Pods_FoodSnapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53744EF4A160232347DADB42 /* Pods_FoodSnapUITests.framework */; };
+		CA2F873B1EFC279F0008BFFE /* FoodSnapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2F873A1EFC279F0008BFFE /* FoodSnapViewExtension.swift */; };
+		CA2F873E1EFC2F250008BFFE /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2F873C1EFC2F250008BFFE /* CreateTaskViewController.swift */; };
+		CA2F873F1EFC2F250008BFFE /* CreateTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2F873D1EFC2F250008BFFE /* CreateTaskViewController.xib */; };
+		CA2F87411EFC47E20008BFFE /* FoodSnapStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2F87401EFC47E10008BFFE /* FoodSnapStringExtension.swift */; };
 		CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */; };
 		CA44AD321EF9CAD1009A89AD /* TaskDescPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */; };
 		CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AD331EF9D791009A89AD /* InstagramManager.swift */; };
@@ -63,6 +67,10 @@
 		6850F6AC909A550DAE5D8AFA /* Pods-FoodSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnap/Pods-FoodSnap.debug.xcconfig"; sourceTree = "<group>"; };
 		6E7C11C6E3BD5A47D6656D35 /* Pods_FoodSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C36C228F5E6DA343151B8AA /* Pods-FoodSnapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSnapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSnapTests/Pods-FoodSnapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA2F873A1EFC279F0008BFFE /* FoodSnapViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSnapViewExtension.swift; sourceTree = "<group>"; };
+		CA2F873C1EFC2F250008BFFE /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		CA2F873D1EFC2F250008BFFE /* CreateTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateTaskViewController.xib; sourceTree = "<group>"; };
+		CA2F87401EFC47E10008BFFE /* FoodSnapStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSnapStringExtension.swift; sourceTree = "<group>"; };
 		CA321D7B1EF9A9AE006DDA24 /* CameraManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CameraManager.framework; path = "Pods/../build/Debug-iphoneos/CameraManager/CameraManager.framework"; sourceTree = "<group>"; };
 		CA44AD2F1EF9CAC2009A89AD /* TaskDescPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescPopupView.swift; sourceTree = "<group>"; };
 		CA44AD311EF9CAD1009A89AD /* TaskDescPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDescPopupView.xib; sourceTree = "<group>"; };
@@ -169,6 +177,8 @@
 				CA7815611EFAC438002AC1ED /* BusinessApplicationViewController.xib */,
 				CA7815681EFB08DF002AC1ED /* BusinessHomeViewController.swift */,
 				CA7815691EFB08DF002AC1ED /* BusinessHomeViewController.xib */,
+				CA2F873C1EFC2F250008BFFE /* CreateTaskViewController.swift */,
+				CA2F873D1EFC2F250008BFFE /* CreateTaskViewController.xib */,
 			);
 			name = "Business Users";
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 				CAED1E0C1EF96FAC00585422 /* NavigationViewController.swift */,
 				CA78155B1EFAC3A4002AC1ED /* Business Users */,
 				CA78155A1EFAC365002AC1ED /* Instagram Users */,
+				CA2F873A1EFC279F0008BFFE /* FoodSnapViewExtension.swift */,
+				CA2F87401EFC47E10008BFFE /* FoodSnapStringExtension.swift */,
 				CAF5168E1EF952A20017F63A /* Assets.xcassets */,
 				CAF516901EF952A20017F63A /* LaunchScreen.storyboard */,
 				CAF516931EF952A20017F63A /* Info.plist */,
@@ -368,6 +380,7 @@
 				CAF516921EF952A20017F63A /* LaunchScreen.storyboard in Resources */,
 				CA7815551EFAB63C002AC1ED /* SharedPhotoTableViewCell.xib in Resources */,
 				CAF5168F1EF952A20017F63A /* Assets.xcassets in Resources */,
+				CA2F873F1EFC2F250008BFFE /* CreateTaskViewController.xib in Resources */,
 				CA9461901EF99ABD0019959C /* BusinessTaskExpandedViewController.xib in Resources */,
 				CAF5168D1EF952A20017F63A /* Main.storyboard in Resources */,
 				CAED1E111EF96FC300585422 /* HomeViewController.xib in Resources */,
@@ -545,11 +558,14 @@
 				CA44AD341EF9D791009A89AD /* InstagramManager.swift in Sources */,
 				CA7815621EFAC438002AC1ED /* BusinessApplicationViewController.swift in Sources */,
 				CA7815541EFAB63C002AC1ED /* SharedPhotoTableViewCell.swift in Sources */,
+				CA2F873B1EFC279F0008BFFE /* FoodSnapViewExtension.swift in Sources */,
 				CAF5168A1EF952A20017F63A /* ViewController.swift in Sources */,
 				CAF516881EF952A20017F63A /* AppDelegate.swift in Sources */,
 				CA44AD301EF9CAC2009A89AD /* TaskDescPopupView.swift in Sources */,
 				CAE29F621EF9768E0004DCC7 /* BusinessTaskView.swift in Sources */,
+				CA2F87411EFC47E20008BFFE /* FoodSnapStringExtension.swift in Sources */,
 				CAED1E101EF96FC300585422 /* HomeViewController.swift in Sources */,
+				CA2F873E1EFC2F250008BFFE /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

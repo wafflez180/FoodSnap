@@ -156,7 +156,7 @@
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                             <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                             <state key="normal" title="Cancel">
-                                <color key="titleColor" red="0.15686274510000001" green="0.82745098039999998" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="0.10588235294117647" green="0.73725490196078436" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
                                 <action selector="pressedCancelButton:" destination="-1" eventType="touchUpInside" id="Cse-fV-MqP"/>

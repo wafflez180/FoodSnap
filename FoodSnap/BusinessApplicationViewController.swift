@@ -36,7 +36,7 @@ class BusinessApplicationViewController: UIViewController, UITextFieldDelegate, 
     var locCoordinates:CLLocationCoordinate2D?
     var placeID:String?
     var website:URL?
-    var greenColor:UIColor = UIColor.init(colorLiteralRed: 27/255, green: 188/255, blue: 156/255, alpha: 1.0)
+    var greenVerifiedColor:UIColor = UIColor.init(colorLiteralRed: 27/255, green: 188/255, blue: 156/255, alpha: 1.0)
     
     // MARK: - UIViewController
     
@@ -141,11 +141,11 @@ class BusinessApplicationViewController: UIViewController, UITextFieldDelegate, 
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         if textField == nameTF && nameTF.text != "" {
-            nameLabel.textColor = greenColor
+            nameLabel.textColor = greenVerifiedColor
         }else if textField == phoneNumTF && (phoneNumTF.text?.characters.count)! >= 9 {
-            phoneLabel.textColor = greenColor
+            phoneLabel.textColor = greenVerifiedColor
         }else if textField == emailTF && isValidEmail(testStr: emailTF.text!) {
-            emailLabel.textColor = greenColor
+            emailLabel.textColor = greenVerifiedColor
         }
     }
     
@@ -172,7 +172,7 @@ class BusinessApplicationViewController: UIViewController, UITextFieldDelegate, 
     
     func textViewDidEndEditing(_ textView: UITextView) {
         if textView.text.characters.count > 0 {
-            commentsLabel.textColor = greenColor
+            commentsLabel.textColor = greenVerifiedColor
         }
     }
     
@@ -181,7 +181,7 @@ class BusinessApplicationViewController: UIViewController, UITextFieldDelegate, 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         companyLogoImage = info[UIImagePickerControllerOriginalImage] as? UIImage
         
-        addPhotoButton.layer.borderColor = greenColor.cgColor
+        addPhotoButton.layer.borderColor = greenVerifiedColor.cgColor
         addPhotoButton.setTitle("", for: UIControlState.normal)
         addPhotoButton.setBackgroundImage(companyLogoImage, for: UIControlState.normal)
         dismiss(animated:true, completion: nil)
@@ -201,7 +201,7 @@ extension BusinessApplicationViewController: GMSAutocompleteViewControllerDelega
         website = place.website
         locPinImageView.isHighlighted = true
         locationTF.text = place.formattedAddress
-        locationLabel.textColor = greenColor
+        locationLabel.textColor = greenVerifiedColor
         dismiss(animated: true, completion: nil)
     }
     

@@ -10,6 +10,17 @@ import UIKit
 
 class BusinessHomeViewController: UIViewController {
     
+    @IBOutlet var logoImageView: UIImageView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var addressLabel: UILabel!
+    @IBOutlet var phoneNumLabel: UILabel!
+    
+    @IBOutlet var changeInfoButton: UIButton!
+    @IBOutlet var createTaskButton: UIButton!
+    @IBOutlet var taskRequestsButton: UIButton!
+    
+    @IBOutlet var taskTableView: UITableView!
+    
     // MARK: - UIViewController
 
     override func viewDidLoad() {
@@ -46,6 +57,21 @@ class BusinessHomeViewController: UIViewController {
             
         }
         //TODO call to API
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func pressedChangeInfoButton(_ sender: Any) {
+    }
+
+    
+    @IBAction func pressedCreateTaskButton(_ sender: Any) {
+        let createTaskViewCont = CreateTaskViewController(nibName: "CreateTaskViewController", bundle: nil)
+        self.present(createTaskViewCont, animated:true)
+    }
+    
+    @IBAction func pressedTaskRequestButton(_ sender: Any) {
+        
     }
     
 
