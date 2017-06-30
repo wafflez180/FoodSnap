@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BusinessHomeViewController: UIViewController {
+class BusinessHomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var logoImageView: UIImageView!
     @IBOutlet var nameLabel: UILabel!
@@ -20,12 +20,13 @@ class BusinessHomeViewController: UIViewController {
     @IBOutlet var taskRequestsButton: UIButton!
     
     @IBOutlet var taskTableView: UITableView!
+    @IBOutlet var contentView: UIView!
     
     // MARK: - UIViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupUI()
     }
 
@@ -38,6 +39,14 @@ class BusinessHomeViewController: UIViewController {
     
     func setupUI(){
         setupNavigationBar()
+        setupTableView()
+    }
+    
+    func setupTableView(){
+        taskTableView.delegate = self
+        taskTableView.dataSource = self
+        taskTableView.register(UINib(nibName: "BusinessTaskTableViewCell", bundle: nil), forCellReuseIdentifier: "businessTaskReuseIdentifier")
+        taskTableView.tableFooterView = UIView()
     }
     
     func setupNavigationBar(){
@@ -62,6 +71,7 @@ class BusinessHomeViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func pressedChangeInfoButton(_ sender: Any) {
+        
     }
 
     
@@ -74,6 +84,21 @@ class BusinessHomeViewController: UIViewController {
         
     }
     
+    // MARK: - UITableViewDataSource
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "businessTaskReuseIdentifier", for: indexPath) as! BusinessTaskTableViewCell
+        
+        return cell
+    }
 
     /*
     // MARK: - Navigation
